@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : MauroDH
 */
 #cabecera{
-    font-size: 42px;
+    font-size: 36px;
     font-family: Broadway;
     color: #e51616;
     text-align: center;
@@ -17,7 +17,7 @@ and open the template in the editor.
 ul li {
     list-style-type: none;
     background: #220cc9;
-    font-size: 28px;
+    font-size: 20px;
     display: inline;
     font-family: Arial;
     padding: 15px;
@@ -35,7 +35,7 @@ img{
 #cuerpo {
     text-align: center;
     font-family: Arial;
-    font-size: 22px;
+    font-size: 18px;
     
     
     
@@ -46,7 +46,7 @@ img{
     background: #220cc9;
     border-radius: 300px;
       font-family: Arial bold;
-    font-size: 29px;
+    font-size: 22px;
 }
 
 
@@ -57,7 +57,7 @@ html {
 
 a:hover {
   color: red;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 a:active {
@@ -77,3 +77,4 @@ form{
      border-radius: 50px;
         
 }
+

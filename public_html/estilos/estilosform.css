@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 form{
     width:800px;
-    background: #7cdd4f;
+    background: #220cc9;
     padding: 20px;
     margin:  0 auto;
     border: 1px solid black;
@@ -42,5 +42,7 @@ h1 {
     font-family: branding medium;
     font-size: 35px;
     text-align: center;
-    color: #7cdd4f;
+    color:   #220cc9;
+
+
 }

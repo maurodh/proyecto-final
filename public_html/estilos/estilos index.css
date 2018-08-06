@@ -67,3 +67,13 @@ a:active {
 a:visited {
     color:yellowgreen
 }
+
+form{
+    width:800px;
+    background: #220cc9;
+    padding: 2px;
+    margin:  0 auto;
+    border: 1px solid black;
+     border-radius: 50px;
+        
+}

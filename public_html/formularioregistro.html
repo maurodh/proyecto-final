@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   
+    <head>
+        <title>La Sirena</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos/estilos index.css" rel="stylesheet" type="text/css"/>
+        <link href="estilos/estilosform.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="cabecera">La Sirena
+            <br> Mas de una emocion
+            <center>
+        <img src="imgs/logo-sirena.png" alt="logo" width="300"/>
+        </center>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            
+                <li>Productos</li>
+                <li>Contactanos</li>
+            </ul>
+        </div>
+        
+        <h1> Pedidos </h1>
+        <form>
+            <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre"/>
+            </div>
+            <div>
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" name="telefono"/>
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"/>
+            </div>
+            <div>
+                     <label for="quenecesita"> Que Necesitas?</label>
+                     <select name="quenecesita">
+                         <option value="seleccionar"> Opciones </option> 
+                         <option value="todo"> Quiero recibir promociones y noticias</option>
+                         <option value="nada"> No me interesa recibir promociones y noticias </option>
+                         <option value="solopromocion"> Solo quiero recibir promociones</option>
+                         <option value="solonoticia"> Solo quiero recibir noticias</option>
+                 </select>
+                 </div>
+                <div>
+                <label for="detalles"> Detalles de la orden</label>
+                <textarea id="detalles" name="detalles" cols="100" rows="5"> </textarea>
+            </div>
+            <div>
+                <button type="submit" > Enviar </button>
+        </form>
+        
+        
+       <div id="pie">
+            <p> Calle 2da #30 Jardines del Cerro. Santiago de los Caballeros
+                Republica Dominicana.
+                Tel. 809-754-9348 y 809-857-2948</p>
+            <img src="Imagenes/instagram.png" width="50" alt=""/>
+            <img src="Imagenes/twitter.png" width="50" alt=""/>
+            <img src="Imagenes/whatsapp.png" width="50" alt=""/>
+            <img src="Imagenes/facebook.png" width="50" alt=""/>
+        </div>
+        </body>
+</html>
